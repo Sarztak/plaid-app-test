@@ -7,14 +7,18 @@ how does I write tests for testing these addresses?
 
 */
 
+/*
+    TODO: 
+    1. The endpoints are public, before production they need to be secured.
+*/
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { Configuration, PlaidApi, PlaidEnvironments } = require('plaid');
 
-const app = express()
-app.use(express.json())
-app.use(cors())
+const app = express();
+app.use(express.json());
+app.use(cors());
 
 const config = new Configuration({
     basePath: PlaidEnvironments[process.env.PLAID_ENV || 'sandbox'],
@@ -40,28 +44,44 @@ app.post('/api/create_link_token', async (req, res) => {
             country_codes: (process.env.PLAID_COUNTRY_CODES || 'US').split(','),
             language: 'en',
         });
-        res.json({link_token: response.data.link_token})
+        res.json({ link_token: response.data.link_token })
     } catch (error) {
         console.error(error.response?.data || error.message);
-        res.status(500).json({error: 'failed to create link token'})
+        res.status(500).json({ error: 'failed to create link token' })
     }
 });
 
 app.post('/api/exchange_public_token', async (req, res) => {
+    let errorMessage = '';
     try {
+        // the request body maybe empty and req.body will fail
+        if (!req.body) {
+            errorMessage = 'Request body is missing';
+        }
+
         const { public_token } = req.body;
 
+        if (!public_token) {
+            errorMessage = 'Missing public_token';
+        } else if (typeof public_token !== 'string' || !public_token.startsWith('public-')) {
+            errorMessage = 'Invalid public_token format';
+        }
+
+        if (errorMessage !== '') {
+            return res.status(400).json({ error: errorMessage });
+        }
+
         const response = await plaidClient.itemPublicTokenExchange({
-            public_token,
+            public_token: public_token
         });
 
         res.json({
-            access_token: response.data.access_token,
-            item_id: response.data.item_id,
+            ok: true,
+            item_id: response.data.item_id
         });
     } catch (error) {
         console.error(error.response?.data || error.message);
-        res.status(500).json({ error: 'failed to exchange public token'});
+        res.status(500).json({ error: 'failed to exchange public token' });
     }
 });
 
