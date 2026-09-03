@@ -47,7 +47,9 @@ export default function App() {
         const session = await createPlaidLinkSession({
             token: linkToken,
             onSuccess: async (success) => {
-                console.log(success);
+                if (!success.publicToken) {
+                    throw new Error('Missing public token from Plaid');
+                }
                 try {
                     // 1. Catch network failure errors 
                     const response = await fetch("/api/exchange_public_token", {
