@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import { createPlaidLinkSession} from 'react-native-plaid-link-sdk'
 import HomeScreen from '@/components/HomeScreen';
+import PreLinkScreen from '@/components/PreLinkScreen';
+import PostLinkScreen from '@/components/PostLinkScreen';
 
 /*
 TODO: Error to be handles
@@ -78,7 +81,8 @@ export default function App() {
                         }
 
                     };
-                    const data = response.json();
+                    const data = await response.json();
+                    setStatus('success');
                     return data;
 
                     } catch (error) {
@@ -94,17 +98,12 @@ export default function App() {
                     }
             },
             onExit: (linkExit) => {
-                // TODO: replace the console.log with the following.
-                // 1. Guide the user in case they exit. 
-                // 2. Log the error data on server for debugging and support
-                console.log('Link exited:', {
-                    error: linkExit.error,
-                    institution: linkExit.metadata.institution,
-                    linkSessionId: linkExit.metadata.linkSessionId,
-                    requestId: linkExit.metadata.requestId,
-                    status: linkExit.metadata.status,
-                })
-
+                if (linkExit.error) {
+                    setErrorMessage(linkExit.error.errorMessage);
+                    setStatus('error');
+                } else {
+                    setStatus('cancelled');
+                }
             },
             onEvent: (event) => {
                 /*
@@ -131,6 +130,29 @@ export default function App() {
 
         // TODO: in future something might be injected here if needed to delay opening the session. However need to handle again if token gets expired.
         session.open();
+    }
+
+    const [status, setStatus] = useState<'pre' | 'linking' | 'success' | 'error' | 'cancelled'>('pre');
+    const [errorMessage, setErrorMessage] = useState('');
+
+    if (status === 'pre') {
+        return (
+            <PreLinkScreen
+                onContinue={() => setStatus('linking')}
+                onManualEntry={() => {}}
+            />
+        );
+    }
+
+    if (status === 'success' || status === 'error' || status === 'cancelled') {
+        return (
+            <PostLinkScreen
+                status={status}
+                errorMessage={errorMessage}
+                onRetry={() => setStatus('linking')}
+                onContinue={() => {}}
+            />
+        );
     }
 
     return <HomeScreen onPress={startPlaidFlow} />;
