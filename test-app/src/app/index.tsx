@@ -52,7 +52,7 @@ export default function App() {
                 }
                 try {
                     // 1. Catch network failure errors 
-                    const response = await fetch("/api/exchange_public_token", {
+                    const response = await fetch("http://10.0.0.20:8000/api/exchange_public_token", {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -120,7 +120,6 @@ export default function App() {
             // layerSession.submit() => {} handles user submitted data in layerSession
             onLoad: () => {
                 console.log("link Loaded");
-                session.open();
             },
         });
         return session;
