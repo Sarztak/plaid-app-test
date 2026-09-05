@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { createPlaidLinkSession} from 'react-native-plaid-link-sdk'
+import { createPlaidLinkSession } from 'react-native-plaid-link-sdk'
 import HomeScreen from '@/components/HomeScreen';
 import PreLinkScreen from '@/components/PreLinkScreen';
 import PostLinkScreen from '@/components/PostLinkScreen';
+import FuzzySearch from './fuzzy';
 
 /*
 TODO: Error to be handles
@@ -18,7 +19,7 @@ export default function App() {
     async function createLinkToken() {
         try {
             const response = await fetch(
-                "http://10.0.0.20:8000/api/create_link_token", 
+                "http://10.0.0.20:8000/api/create_link_token",
                 {
                     method: "POST",
                     headers: {
@@ -85,17 +86,17 @@ export default function App() {
                     setStatus('success');
                     return data;
 
-                    } catch (error) {
-                        // TODO: 
-                        // 1. display appropriate UI 
-                        // 2. make a separate function to extract error messages.
-                        // 3. showErrorUI(error);
-                        if (error instanceof Error) {
-                            console.error('Failed to exchange token:', error.message);
-                        } else {
-                            console.error('Unknown error occured:', error);
-                        }
+                } catch (error) {
+                    // TODO: 
+                    // 1. display appropriate UI 
+                    // 2. make a separate function to extract error messages.
+                    // 3. showErrorUI(error);
+                    if (error instanceof Error) {
+                        console.error('Failed to exchange token:', error.message);
+                    } else {
+                        console.error('Unknown error occured:', error);
                     }
+                }
             },
             onExit: (linkExit) => {
                 if (linkExit.error) {
@@ -132,14 +133,21 @@ export default function App() {
         session.open();
     }
 
-    const [status, setStatus] = useState<'pre' | 'linking' | 'success' | 'error' | 'cancelled'>('pre');
+    const [status, setStatus] = useState<'search' | 'pre' | 'linking' | 'success' | 'error' | 'cancelled'>('search');
     const [errorMessage, setErrorMessage] = useState('');
+    const [selectedInstitution, setSelectedInstitution] = useState<string | null>(null);
+
+    if (status === 'search') {
+        return (
+            <FuzzySearch />
+        );
+    }
 
     if (status === 'pre') {
         return (
             <PreLinkScreen
                 onContinue={() => setStatus('linking')}
-                onManualEntry={() => {}}
+                onManualEntry={() => { }}
             />
         );
     }
@@ -150,7 +158,7 @@ export default function App() {
                 status={status}
                 errorMessage={errorMessage}
                 onRetry={() => setStatus('linking')}
-                onContinue={() => {}}
+                onContinue={() => { }}
             />
         );
     }
