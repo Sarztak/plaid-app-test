@@ -1,0 +1,2368 @@
+{
+  "First Bank": [
+    {
+      "institution_id": "ins_130978",
+      "name": "First Bank",
+      "url": "https://www.yourfirst.bank/Pages/Default.html",
+      "primary_color": "#00668f",
+      "logo": "ins_130978.png"
+    },
+    {
+      "institution_id": "ins_103019",
+      "name": "First Bank",
+      "url": "https://www.firstbankak.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_103019.png"
+    },
+    {
+      "institution_id": "ins_109789",
+      "name": "First Bank",
+      "url": "http://www.first-bank.net/",
+      "primary_color": "#00668f",
+      "logo": "ins_109789.png"
+    },
+    {
+      "institution_id": "ins_115414",
+      "name": "First Bank",
+      "url": "https://www.firstiowa.bank/",
+      "primary_color": "#00668f",
+      "logo": "ins_115414.png"
+    },
+    {
+      "institution_id": "ins_115563",
+      "name": "First Bank",
+      "url": "https://localfirstbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_115563.png"
+    },
+    {
+      "institution_id": "ins_127195",
+      "name": "First Bank",
+      "url": "https://www.myfirst.bank",
+      "primary_color": "#00668f",
+      "logo": "ins_127195.png"
+    }
+  ],
+  "First State Bank": [
+    {
+      "institution_id": "ins_132150",
+      "name": "First State Bank",
+      "url": "https://my.firststatebankky.com/login",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_115532",
+      "name": "First State Bank",
+      "url": "https://www.fsbnesscity.com",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_103449",
+      "name": "First State Bank",
+      "url": "https://www.firststatebk.com/",
+      "primary_color": "#004966",
+      "logo": "ins_103449.png"
+    },
+    {
+      "institution_id": "ins_110824",
+      "name": "First State Bank",
+      "url": "https://www.fsbmybank.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_110824.png"
+    },
+    {
+      "institution_id": "ins_111290",
+      "name": "First State Bank",
+      "url": "https://www.fsb4me.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111290.png"
+    },
+    {
+      "institution_id": "ins_113589",
+      "name": "First State Bank",
+      "url": "https://www.firststatebnk.bank",
+      "primary_color": "#004966",
+      "logo": "ins_113589.png"
+    },
+    {
+      "institution_id": "ins_133965",
+      "name": "First State Bank",
+      "url": "https://www.fsbtx.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_133966",
+      "name": "First State Bank",
+      "url": "https://www.bankfsb.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_133972",
+      "name": "First State Bank",
+      "url": "https://www.firstate.net/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_133975",
+      "name": "First State Bank",
+      "url": "https://www.fsbankia.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_137054",
+      "name": "First State Bank",
+      "url": "https://www.socorrobanking.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Citizens Bank": [
+    {
+      "institution_id": "ins_20",
+      "name": "Citizens Bank",
+      "url": "https://www.citizensbank.com",
+      "primary_color": "#37926d",
+      "logo": "ins_20.png"
+    },
+    {
+      "institution_id": "ins_111098",
+      "name": "Citizens Bank",
+      "url": "https://www.citizensbank24.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111098.png"
+    },
+    {
+      "institution_id": "ins_136893",
+      "name": "Citizens Bank",
+      "url": "https://citizensbankrb.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Great Southern Bank": [
+    {
+      "institution_id": "ins_111689",
+      "name": "Great Southern Bank",
+      "url": "http://www.greatsouthernbank.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111689.png"
+    },
+    {
+      "institution_id": "ins_114816",
+      "name": "Great Southern Bank",
+      "url": "www.greatsouthern.bank",
+      "primary_color": "#004966"
+    }
+  ],
+  "Metro Credit Union": [
+    {
+      "institution_id": "ins_117261",
+      "name": "Metro Credit Union",
+      "url": "https://www.metrocu.org",
+      "primary_color": "#004966",
+      "logo": "ins_117261.png"
+    },
+    {
+      "institution_id": "ins_132037",
+      "name": "Metro Credit Union",
+      "url": "https://www.metro.coop/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Members Choice Credit Union": [
+    {
+      "institution_id": "ins_114127",
+      "name": "Members Choice Credit Union",
+      "url": "https://www.mccu.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114127.png"
+    },
+    {
+      "institution_id": "ins_114689",
+      "name": "Members Choice Credit Union",
+      "url": "https://www.mccu.net/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Legacy Bank": [
+    {
+      "institution_id": "ins_116485",
+      "name": "Legacy Bank",
+      "url": "https://secure-legacybank.com/Common/SignOn/Start.asp",
+      "primary_color": "#00668f",
+      "logo": "ins_116485.png"
+    },
+    {
+      "institution_id": "ins_134063",
+      "name": "Legacy Bank",
+      "url": "https://www.legacybankca.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_134063.png"
+    }
+  ],
+  "United Bank": [
+    {
+      "institution_id": "ins_115396",
+      "name": "United Bank",
+      "url": "https://www.united-bk.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_115396.png"
+    },
+    {
+      "institution_id": "ins_111533",
+      "name": "United Bank",
+      "url": "https://www.accessunited.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111533.png"
+    }
+  ],
+  "First Century Bank": [
+    {
+      "institution_id": "ins_118885",
+      "name": "First Century Bank",
+      "url": "https://www.firstcenturybank.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_132951",
+      "name": "First Century Bank",
+      "url": "https://myfirstcenturybank.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "1st National Bank": [
+    {
+      "institution_id": "ins_114556",
+      "name": "1st National Bank",
+      "url": "https://www.bankwith1st.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114556.png"
+    },
+    {
+      "institution_id": "ins_110548",
+      "name": "1st National Bank",
+      "url": "http://www.fnbhamilton.com/",
+      "primary_color": "#79a441",
+      "logo": "ins_110548.png"
+    }
+  ],
+  "Access Credit Union": [
+    {
+      "institution_id": "ins_114664",
+      "name": "Access Credit Union",
+      "url": "http://www.accessmycu.org",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_126707",
+      "name": "Access Credit Union",
+      "url": "https://www.access-cu.com/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Alden State Bank": [
+    {
+      "institution_id": "ins_114141",
+      "name": "Alden State Bank",
+      "url": "http://www.aldenstate.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114141.png"
+    },
+    {
+      "institution_id": "ins_114912",
+      "name": "Alden State Bank",
+      "url": "https://www.aldenst8.com",
+      "primary_color": "#004966"
+    }
+  ],
+  "Alliance Bank": [
+    {
+      "institution_id": "ins_100397",
+      "name": "Alliance Bank",
+      "url": "https://alliancebanking.com",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_114441",
+      "name": "Alliance Bank",
+      "url": "https://www.alliancebank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114441.png"
+    }
+  ],
+  "Alliance Bank (WI)": [
+    {
+      "institution_id": "ins_117296",
+      "name": "Alliance Bank (WI)",
+      "url": "https://www.alliancebank.us",
+      "primary_color": "#0075a3",
+      "logo": "ins_117296.png"
+    }
+  ],
+  "Alliance Bank (MN) - Business Banking": [
+    {
+      "institution_id": "ins_132008",
+      "name": "Alliance Bank (MN) - Business Banking",
+      "url": "https://www.alliancebanks.com",
+      "primary_color": "#cb9c2b",
+      "logo": "ins_132008.png"
+    }
+  ],
+  "Alliance Bank Central Texas": [
+    {
+      "institution_id": "ins_110764",
+      "name": "Alliance Bank Central Texas",
+      "url": "https://www.alliancebanktexas.com",
+      "primary_color": "#00668f",
+      "logo": "ins_110764.png"
+    }
+  ],
+  "Alliance Bank of Topeka (KS)": [
+    {
+      "institution_id": "ins_127937",
+      "name": "Alliance Bank of Topeka (KS)",
+      "url": "https://www.alliancebankks.com/",
+      "primary_color": "#aa1d33"
+    }
+  ],
+  "Alliance Benefit Group (Houston) - Retirement": [
+    {
+      "institution_id": "ins_100402",
+      "name": "Alliance Benefit Group (Houston) - Retirement",
+      "url": "https://relius.abghouston.com/ReliusWeb/",
+      "primary_color": "#004d3c",
+      "logo": "ins_100402.png"
+    }
+  ],
+  "Alliance Catholic Credit Union": [
+    {
+      "institution_id": "ins_114581",
+      "name": "Alliance Catholic Credit Union",
+      "url": "https://www.allianceccu.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114581.png"
+    }
+  ],
+  "Alliance Community Bank": [
+    {
+      "institution_id": "ins_115359",
+      "name": "Alliance Community Bank",
+      "url": "https://www.bankacb.com/",
+      "primary_color": "#5897b5",
+      "logo": "ins_115359.png"
+    }
+  ],
+  "American State Bank": [
+    {
+      "institution_id": "ins_114587",
+      "name": "American State Bank",
+      "url": "https://www.americanstatebank.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114587.png"
+    },
+    {
+      "institution_id": "ins_114479",
+      "name": "American State Bank",
+      "url": "https://myasb.bank/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Artesia Credit Union": [
+    {
+      "institution_id": "ins_116931",
+      "name": "Artesia Credit Union",
+      "url": "https://www.netit.financial-net.com/ascu/cgi-bin/ebs",
+      "primary_color": "#000000",
+      "logo": "ins_116931.png"
+    },
+    {
+      "institution_id": "ins_134484",
+      "name": "Artesia Credit Union",
+      "url": "https://www.artesiacu.org",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Ascensus - American Funds": [
+    {
+      "institution_id": "ins_118647",
+      "name": "Ascensus - American Funds",
+      "url": "https://myaccount.ascensus.com/afunds/logon.cfm",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_127603",
+      "name": "Ascensus - American Funds",
+      "url": "https://myaccount.ascensus.com/afunds/logon.cfm",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Associated Federal Employees Credit Union": [
+    {
+      "institution_id": "ins_128587",
+      "name": "Associated Federal Employees Credit Union",
+      "url": "http://www.afefcu.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_128557",
+      "name": "Associated Federal Employees Credit Union",
+      "url": "http://www.afefcu.com/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Aurora Federal Credit Union": [
+    {
+      "institution_id": "ins_137032",
+      "name": "Aurora Federal Credit Union",
+      "url": "https://www.auroracu.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_100735",
+      "name": "Aurora Federal Credit Union",
+      "url": "https://www.netit.financial-net.com/mbrcu/cgi-bin/ebs",
+      "primary_color": "#00668f",
+      "logo": "ins_100735.png"
+    }
+  ],
+  "Bank of Grand Lake": [
+    {
+      "institution_id": "ins_114239",
+      "name": "Bank of Grand Lake",
+      "url": "https://www.bankofgrove.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_136904",
+      "name": "Bank of Grand Lake",
+      "url": "https://www.bankofgrandlake.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Bank of Texas": [
+    {
+      "institution_id": "ins_100994",
+      "name": "Bank of Texas",
+      "url": "https://www.bankoftexas.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_100994.png"
+    },
+    {
+      "institution_id": "ins_133778",
+      "name": "Bank of Texas",
+      "url": "https://www.bankoftexasonline.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Central National Bank": [
+    {
+      "institution_id": "ins_111040",
+      "name": "Central National Bank",
+      "url": "https://www.centralnational.com",
+      "primary_color": "#00668f",
+      "logo": "ins_111040.png"
+    },
+    {
+      "institution_id": "ins_115450",
+      "name": "Central National Bank",
+      "url": "https://www.cnbwaco.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_115450.png"
+    }
+  ],
+  "Charter Bank": [
+    {
+      "institution_id": "ins_114627",
+      "name": "Charter Bank",
+      "url": "https://www.charterbanker.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114627.png"
+    },
+    {
+      "institution_id": "ins_115448",
+      "name": "Charter Bank",
+      "url": "https://www.charterbankcc.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_111675",
+      "name": "Charter Bank",
+      "url": "https://www.charterbank.bank",
+      "primary_color": "#004966",
+      "logo": "ins_111675.png"
+    }
+  ],
+  "Citizens Bank & Trust": [
+    {
+      "institution_id": "ins_111167",
+      "name": "Citizens Bank & Trust",
+      "url": "https://www.gocitizens.bank/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111167.png"
+    },
+    {
+      "institution_id": "ins_115338",
+      "name": "Citizens Bank & Trust",
+      "url": "https://cbtmo.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Citizens Bank & Trust Company": [
+    {
+      "institution_id": "ins_137030",
+      "name": "Citizens Bank & Trust Company",
+      "url": "https://www.citizensbankandtrust.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_115428",
+      "name": "Citizens Bank & Trust Company",
+      "url": "https://www.cbtky.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_115541",
+      "name": "Citizens Bank & Trust Company",
+      "url": "http://www.cbankandtrust.com",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_136880",
+      "name": "Citizens Bank & Trust Company",
+      "url": "https://www.cbtbanking.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Citizens State Bank": [
+    {
+      "institution_id": "ins_138780",
+      "name": "Citizens State Bank",
+      "url": "https://csbanton.com/",
+      "primary_color": "#004966",
+      "logo": "ins_138780.png"
+    },
+    {
+      "institution_id": "ins_123130",
+      "name": "Citizens State Bank",
+      "url": "https://www.csbwyoming.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_123130.png"
+    },
+    {
+      "institution_id": "ins_101864",
+      "name": "Citizens State Bank",
+      "url": "https://www.csbsealy.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_101864.png"
+    },
+    {
+      "institution_id": "ins_115350",
+      "name": "Citizens State Bank",
+      "url": "https://www.bankcsb.bank",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_127013",
+      "name": "Citizens State Bank",
+      "url": "https://csbnow.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_132228",
+      "name": "Citizens State Bank",
+      "url": "https://www.csbsheldon.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_137053",
+      "name": "Citizens State Bank",
+      "url": "https://www.csbjc.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Citizens State Bank (TX)": [
+    {
+      "institution_id": "ins_132406",
+      "name": "Citizens State Bank (TX)",
+      "url": "https://www.citizensstatebk.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_121829",
+      "name": "Citizens State Bank (TX)",
+      "url": "https://www.csbtx.bank/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Citizens State Bank of Glenville": [
+    {
+      "institution_id": "ins_128624",
+      "name": "Citizens State Bank of Glenville",
+      "url": "http://www.csbglenville.com",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_128667",
+      "name": "Citizens State Bank of Glenville",
+      "url": "http://www.csbglenville.com",
+      "primary_color": "#004966"
+    }
+  ],
+  "Columbia Credit Union": [
+    {
+      "institution_id": "ins_109620",
+      "name": "Columbia Credit Union",
+      "url": "https://www.columbiacu.org/",
+      "primary_color": "#004966",
+      "logo": "ins_109620.png"
+    },
+    {
+      "institution_id": "ins_134659",
+      "name": "Columbia Credit Union",
+      "url": "https://www.como-cu.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Commerce Bank": [
+    {
+      "institution_id": "ins_115046",
+      "name": "Commerce Bank",
+      "url": "https://bankwithcommerce.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_120003",
+      "name": "Commerce Bank",
+      "url": "https://www.commercebank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_120003.png"
+    }
+  ],
+  "Commercial Bank": [
+    {
+      "institution_id": "ins_111192",
+      "name": "Commercial Bank",
+      "url": "http://www.commercialbankky.bank/",
+      "primary_color": "#004966",
+      "logo": "ins_111192.png"
+    },
+    {
+      "institution_id": "ins_115360",
+      "name": "Commercial Bank",
+      "url": "https://www.commercialbank.net/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Commercial Bank - Personal": [
+    {
+      "institution_id": "ins_111698",
+      "name": "Commercial Bank - Personal",
+      "url": "http://www.cbtn.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111698.png"
+    },
+    {
+      "institution_id": "ins_133468",
+      "name": "Commercial Bank - Personal",
+      "url": "https://www.commercial-bank.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_133468.png"
+    }
+  ],
+  "Commercial State Bank": [
+    {
+      "institution_id": "ins_136649",
+      "name": "Commercial State Bank",
+      "url": "https://www.wausabank.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_136591",
+      "name": "Commercial State Bank",
+      "url": "https://www.csbpalmer.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Community Bank (TN)": [
+    {
+      "institution_id": "ins_131920",
+      "name": "Community Bank (TN)",
+      "url": "http://community-bank.net/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_126272",
+      "name": "Community Bank (TN)",
+      "url": "https://www.community-bank.net/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Community First Bank": [
+    {
+      "institution_id": "ins_112834",
+      "name": "Community First Bank",
+      "url": "https://cfbhfg.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_112834.png"
+    },
+    {
+      "institution_id": "ins_133839",
+      "name": "Community First Bank",
+      "url": "https://www.cfbne.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Community National Bank": [
+    {
+      "institution_id": "ins_115149",
+      "name": "Community National Bank",
+      "url": "https://www.cnbtx.bank",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_115064",
+      "name": "Community National Bank",
+      "url": "https://www.cnb-usa.com/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Community State Bank": [
+    {
+      "institution_id": "ins_137037",
+      "name": "Community State Bank",
+      "url": "http://www.commbankonline.com/ASP/home.asp",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_110779",
+      "name": "Community State Bank",
+      "url": "http://www.communitystatebank.com/index.htm",
+      "primary_color": "#00668f",
+      "logo": "ins_110779.png"
+    },
+    {
+      "institution_id": "ins_110780",
+      "name": "Community State Bank",
+      "url": "http://www.csbnetbank.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_110780.png"
+    },
+    {
+      "institution_id": "ins_110820",
+      "name": "Community State Bank",
+      "url": "https://www.ecommunitybank.org/",
+      "primary_color": "#004966",
+      "logo": "ins_110820.png"
+    },
+    {
+      "institution_id": "ins_137938",
+      "name": "Community State Bank",
+      "url": "https://www.bankcsb.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_137938.png"
+    }
+  ],
+  "Cornerstone Community Bank": [
+    {
+      "institution_id": "ins_138786",
+      "name": "Cornerstone Community Bank",
+      "url": "https://www.ourccbank.com",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_118627",
+      "name": "Cornerstone Community Bank",
+      "url": "https://www.bankcornerstone.com/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Crossroads Bank": [
+    {
+      "institution_id": "ins_133856",
+      "name": "Crossroads Bank",
+      "url": "https://www.crossroadsbank.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_138903",
+      "name": "Gateway Bank (Rison, AR)",
+      "url": "https://www.gatewaybank.bank/",
+      "primary_color": "#004966"
+    }
+  ],
+  "DAKOTA PLAINS CREDIT UNION": [
+    {
+      "institution_id": "ins_134719",
+      "name": "DAKOTA PLAINS CREDIT UNION",
+      "url": "https://dakotaplainsfcu.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_134720",
+      "name": "DAKOTA PLAINS CREDIT UNION",
+      "url": "https://www.dakotaplainscreditunion.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Deseret First Credit Union": [
+    {
+      "institution_id": "ins_113809",
+      "name": "Deseret First Credit Union",
+      "url": "https://online.dfcu.com/Authentication",
+      "primary_color": "#00668f",
+      "logo": "ins_113809.png"
+    },
+    {
+      "institution_id": "ins_122016",
+      "name": "Deseret First Credit Union",
+      "url": "https://www.dfcu.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Eastpointe Community Credit Union": [
+    {
+      "institution_id": "ins_128600",
+      "name": "Eastpointe Community Credit Union",
+      "url": "http://www.eastpointeccu.com/Home_Page_2.html",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_128570",
+      "name": "Eastpointe Community Credit Union",
+      "url": "http://www.eastpointeccu.com/Home_Page_2.html",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Exchange Bank": [
+    {
+      "institution_id": "ins_111225",
+      "name": "Exchange Bank",
+      "url": "https://www.exch.bank",
+      "primary_color": "#004966",
+      "logo": "ins_111225.png"
+    },
+    {
+      "institution_id": "ins_115470",
+      "name": "Exchange Bank",
+      "url": "https://www.easybanking.net/",
+      "primary_color": "#004966",
+      "logo": "ins_115470.png"
+    },
+    {
+      "institution_id": "ins_117325",
+      "name": "Exchange Bank",
+      "url": "https://www.exchangebank.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_117325.png"
+    }
+  ],
+  "F&M Community Bank": [
+    {
+      "institution_id": "ins_114804",
+      "name": "F&M Community Bank - Personal",
+      "url": "https://www.fmcommunity.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Fairfax State Savings Bank (Iowa) - Business": [
+    {
+      "institution_id": "ins_131843",
+      "name": "Fairfax State Savings Bank (Iowa) - Business",
+      "url": "http://www.thebankhere.com",
+      "primary_color": "#49570e",
+      "logo": "ins_131843.png"
+    },
+    {
+      "institution_id": "ins_131844",
+      "name": "Fairfax State Savings Bank (Iowa) - Business",
+      "url": "http://www.thebankhere.com",
+      "primary_color": "#49570e",
+      "logo": "ins_131844.png"
+    },
+    {
+      "institution_id": "ins_131845",
+      "name": "Fairfax State Savings Bank (Iowa) - Business",
+      "url": "http://www.thebankhere.com",
+      "primary_color": "#49570e",
+      "logo": "ins_131845.png"
+    }
+  ],
+  "Farmers & Merchants Bank": [
+    {
+      "institution_id": "ins_115411",
+      "name": "Farmers & Merchants Bank",
+      "url": "https://www.fmfbank.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_124631",
+      "name": "Farmers & Merchants Bank",
+      "url": "https://www.fmb1919.bank/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Farmers & Merchants State Bank": [
+    {
+      "institution_id": "ins_116736",
+      "name": "Farmers & Merchants State Bank",
+      "url": "https://www.fmpierz.com",
+      "primary_color": "#004966",
+      "logo": "ins_116736.png"
+    },
+    {
+      "institution_id": "ins_114228",
+      "name": "Farmers & Merchants State Bank",
+      "url": "https://www.fandmstbk.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114228.png"
+    }
+  ],
+  "Farmers and Merchants Bank": [
+    {
+      "institution_id": "ins_110817",
+      "name": "Farmers and Merchants Bank",
+      "url": "https://www.bankwithfm.com/",
+      "primary_color": "#004966",
+      "logo": "ins_110817.png"
+    },
+    {
+      "institution_id": "ins_111715",
+      "name": "Farmers and Merchants Bank",
+      "url": "http://www.fmlafayette.com",
+      "primary_color": "#00668f",
+      "logo": "ins_111715.png"
+    }
+  ],
+  "Farmers Bank & Trust": [
+    {
+      "institution_id": "ins_111619",
+      "name": "Farmers Bank & Trust",
+      "url": "https://www.myfarmers.bank",
+      "primary_color": "#00668f",
+      "logo": "ins_111619.png"
+    },
+    {
+      "institution_id": "ins_133892",
+      "name": "Farmers Bank & Trust",
+      "url": "https://www.farmersbank-trust.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_133892.png"
+    }
+  ],
+  "Farmers State Bank": [
+    {
+      "institution_id": "ins_114819",
+      "name": "Farmers State Bank",
+      "url": "https://www.fsbiowa.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_102886",
+      "name": "Farmers State Bank",
+      "url": "https://www.fsbctx.bank",
+      "primary_color": "#00668f",
+      "logo": "ins_102886.png"
+    },
+    {
+      "institution_id": "ins_110848",
+      "name": "Farmers State Bank",
+      "url": "https://www.fsbks.bank/",
+      "primary_color": "#00668f",
+      "logo": "ins_110848.png"
+    },
+    {
+      "institution_id": "ins_111238",
+      "name": "Farmers State Bank",
+      "url": "http://www.farmersstatebank.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_111238.png"
+    },
+    {
+      "institution_id": "ins_137824",
+      "name": "Farmers State Bank",
+      "url": "https://www.fsb1879.com",
+      "primary_color": "#00668f",
+      "logo": "ins_137824.png"
+    }
+  ],
+  "Farmers State Bank - Personal": [
+    {
+      "institution_id": "ins_114934",
+      "name": "Farmers State Bank - Personal",
+      "url": "https://www.farmersebank.com",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_127256",
+      "name": "Farmers State Bank - Personal",
+      "url": "https://www.farmersstate.com/",
+      "primary_color": "#4c4836"
+    }
+  ],
+  "Federal Employees Credit Union": [
+    {
+      "institution_id": "ins_128264",
+      "name": "Federal Employees Credit Union",
+      "url": "https://www.federalempscu.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_128264.png"
+    },
+    {
+      "institution_id": "ins_137230",
+      "name": "Federal Employees Credit Union",
+      "url": "https://www.federalemployeescu.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Fidelity Bank": [
+    {
+      "institution_id": "ins_114295",
+      "name": "Fidelity Bank",
+      "url": "https://www.bankatfidelity.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114295.png"
+    },
+    {
+      "institution_id": "ins_111858",
+      "name": "Fidelity Bank",
+      "url": "https://www.fidelitybank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_111858.png"
+    },
+    {
+      "institution_id": "ins_109788",
+      "name": "Fidelity Bank",
+      "url": "https://www.fidelitybankonline.com",
+      "primary_color": "#004966",
+      "logo": "ins_109788.png"
+    },
+    {
+      "institution_id": "ins_110003",
+      "name": "Fidelity Bank",
+      "url": "https://www.bankwithfidelity.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_110003.png"
+    }
+  ],
+  "Fidelity State Bank & Trust Company": [
+    {
+      "institution_id": "ins_109640",
+      "name": "Fidelity State Bank & Trust Company",
+      "url": "https://www.fidelitytopeka.com/home/home",
+      "primary_color": "#0075a3",
+      "logo": "ins_109640.png"
+    },
+    {
+      "institution_id": "ins_109641",
+      "name": "Fidelity State Bank & Trust Company",
+      "url": "http://www.fidelitybankdc.com/home.asp",
+      "primary_color": "#004966",
+      "logo": "ins_109641.png"
+    }
+  ],
+  "Financial Partners Credit Union": [
+    {
+      "institution_id": "ins_134840",
+      "name": "Financial Partners Credit Union",
+      "url": "https://www.fpcu.net",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_117418",
+      "name": "Financial Partners Credit Union",
+      "url": "https://fpcu.org/",
+      "primary_color": "#00668f",
+      "logo": "ins_117418.png"
+    }
+  ],
+  "Financial Plus Credit Union": [
+    {
+      "institution_id": "ins_109643",
+      "name": "Financial Plus Credit Union",
+      "url": "https://www.financialplus.org/",
+      "primary_color": "#0075a3",
+      "logo": "ins_109643.png"
+    },
+    {
+      "institution_id": "ins_111241",
+      "name": "Financial Plus Credit Union",
+      "url": "http://secure.financialpluscu.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_111241.png"
+    }
+  ],
+  "Firefighters Credit Union": [
+    {
+      "institution_id": "ins_134843",
+      "name": "Firefighters Credit Union",
+      "url": "https://myfirecu.org",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_124824",
+      "name": "Firefighters Credit Union",
+      "url": "https://www.fire-cu.org/",
+      "primary_color": "#004966"
+    }
+  ],
+  "First California Federal Credit Union": [
+    {
+      "institution_id": "ins_103055",
+      "name": "First California Federal Credit Union",
+      "url": "https://www.firstcalfcu.org",
+      "primary_color": "#0075a3",
+      "logo": "ins_103055.png"
+    },
+    {
+      "institution_id": "ins_137195",
+      "name": "First California Federal Credit Union",
+      "url": "https://www.firstcalfcu.org",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "First Community Bank": [
+    {
+      "institution_id": "ins_110768",
+      "name": "First Community Bank",
+      "url": "https://www.firstcb.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_110768.png"
+    },
+    {
+      "institution_id": "ins_111625",
+      "name": "First Community Bank",
+      "url": "https://www.firstcommunitybanker.com",
+      "primary_color": "#00668f",
+      "logo": "ins_111625.png"
+    },
+    {
+      "institution_id": "ins_136900",
+      "name": "First Community Bank",
+      "url": "https://www.firstbeemer.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "First Federal Savings Bank": [
+    {
+      "institution_id": "ins_120332",
+      "name": "First Federal Savings Bank",
+      "url": "https://firstfedindiana.bank/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_114865",
+      "name": "First Federal Savings Bank",
+      "url": "https://www.firstfederalbanking.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114865.png"
+    },
+    {
+      "institution_id": "ins_111814",
+      "name": "First Federal Savings Bank",
+      "url": "https://www.ffsb-nc.com",
+      "primary_color": "#00668f",
+      "logo": "ins_111814.png"
+    }
+  ],
+  "First National Bank (OK)": [
+    {
+      "institution_id": "ins_115349",
+      "name": "First National Bank (OK)",
+      "url": "https://www.bankvinita.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_125967",
+      "name": "First National Bank (OK)",
+      "url": "https://www.okfnb.com",
+      "primary_color": "#004966"
+    }
+  ],
+  "First National Bank & Trust Co. (OK) - Business": [
+    {
+      "institution_id": "ins_137749",
+      "name": "First National Bank & Trust Co. (OK) - Business",
+      "url": "https://www.bankfnbt.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_128823",
+      "name": "First National Bank & Trust Co. (OK) - Business",
+      "url": "https://www.fnbokla.bank/",
+      "primary_color": "#85724d"
+    }
+  ],
+  "First Resource Bank": [
+    {
+      "institution_id": "ins_136718",
+      "name": "First Resource Bank",
+      "url": "https://www.myfrbank.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_111280",
+      "name": "First Resource Bank",
+      "url": "https://www.firstresourcebank.com/",
+      "primary_color": "#002362",
+      "logo": "ins_111280.png"
+    }
+  ],
+  "First Savings Bank - Personal": [
+    {
+      "institution_id": "ins_136985",
+      "name": "First Savings Bank - Personal",
+      "url": "https://www.fsbbank.net",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_111833",
+      "name": "First Savings Bank",
+      "url": "https://www.firstsavingsbanks.bank/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111833.png"
+    }
+  ],
+  "First Security Bank": [
+    {
+      "institution_id": "ins_127334",
+      "name": "First Security Bank",
+      "url": "https://www.fsbokc.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_127334.png"
+    },
+    {
+      "institution_id": "ins_137047",
+      "name": "First Security Bank",
+      "url": "https://www.firstsecuritybanks.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "First State Bank - Personal": [
+    {
+      "institution_id": "ins_111750",
+      "name": "First State Bank - Personal",
+      "url": "https://www.firststatebank.biz",
+      "primary_color": "#004966",
+      "logo": "ins_111750.png"
+    },
+    {
+      "institution_id": "ins_131012",
+      "name": "First State Bank - Personal",
+      "url": "https://www.fsbcentral.com/",
+      "primary_color": "#ba1a1c"
+    }
+  ],
+  "First State Bank (TX)": [
+    {
+      "institution_id": "ins_131825",
+      "name": "First State Bank (TX)",
+      "url": "https://www.firstclassbanking.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_126730",
+      "name": "First State Bank (TX)",
+      "url": "https://fnbhome.bank",
+      "primary_color": "#00668f"
+    }
+  ],
+  "First State Bank Shannon-Polo": [
+    {
+      "institution_id": "ins_133987",
+      "name": "First State Bank Shannon-Polo - Personal",
+      "url": "https://www.fsbshannon-polo.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "First United Bank": [
+    {
+      "institution_id": "ins_114192",
+      "name": "First United Bank",
+      "url": "http://www.firstunitedbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114192.png"
+    },
+    {
+      "institution_id": "ins_116707",
+      "name": "First United Bank",
+      "url": "https://www.firstunited.bank/",
+      "primary_color": "#00668f",
+      "logo": "ins_116707.png"
+    }
+  ],
+  "Foresight Bank": [
+    {
+      "institution_id": "ins_115511",
+      "name": "Foresight Bank",
+      "url": "https://www.foresight.bank/",
+      "primary_color": "#0075a3",
+      "logo": "ins_115511.png"
+    },
+    {
+      "institution_id": "ins_138079",
+      "name": "Foresight Bank",
+      "url": "https://www.ffgbank.com",
+      "primary_color": "#00668f",
+      "logo": "ins_138079.png"
+    }
+  ],
+  "Freedom Bank (TX)": [
+    {
+      "institution_id": "ins_127826",
+      "name": "Freedom Bank (TX)",
+      "url": "https://www.freedombanktexas.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_127873",
+      "name": "Freedom Bank (TX)",
+      "url": "http://www.freedombanktexas.com",
+      "primary_color": "#0d1d41"
+    }
+  ],
+  "Front Royal Credit Union": [
+    {
+      "institution_id": "ins_128574",
+      "name": "Front Royal Credit Union",
+      "url": "https://frontroyalfcu.org/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_128288",
+      "name": "Front Royal Credit Union",
+      "url": "https://frontroyalfcu.org/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Frontier Bank - Personal": [
+    {
+      "institution_id": "ins_114552",
+      "name": "Frontier Bank - Personal",
+      "url": "https://www.frontierbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_114552.png"
+    },
+    {
+      "institution_id": "ins_103689",
+      "name": "Frontier Bank - Personal",
+      "url": "https://www.frontierbankco.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Frontier Bank - Business": [
+    {
+      "institution_id": "ins_137643",
+      "name": "Frontier Bank - Business",
+      "url": "https://www.frontierbankco.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_137391",
+      "name": "Frontier Bank - Business",
+      "url": "https://www.frontierbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_137391.png"
+    }
+  ],
+  "Generations Federal Credit Union": [
+    {
+      "institution_id": "ins_114029",
+      "name": "Generations Federal Credit Union",
+      "url": "https://www.mygenfcu.org/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114029.png"
+    },
+    {
+      "institution_id": "ins_137217",
+      "name": "Generations Federal Credit Union",
+      "url": "http://laportegenerationsfederalcreditunion.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "GMS Connect": [
+    {
+      "institution_id": "ins_132799",
+      "name": "GMS Connect",
+      "url": "https://gms.prismhr.com",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_132800",
+      "name": "GMS Connect",
+      "url": "https://gms.prismhr.com",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Grand Altitude Federal Credit Union": [
+    {
+      "institution_id": "ins_138066",
+      "name": "Grand Altitude Federal Credit Union",
+      "url": "https://www.grandaltitude.com/",
+      "primary_color": "#004966",
+      "logo": "ins_138066.png"
+    },
+    {
+      "institution_id": "ins_125348",
+      "name": "Grand Altitude Federal Credit Union",
+      "url": "https://www.atlanticcity.coop/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Grant County State Bank": [
+    {
+      "institution_id": "ins_115232",
+      "name": "Grant County State Bank",
+      "url": "www.grantcountystatebank.com",
+      "primary_color": "#b17b34"
+    },
+    {
+      "institution_id": "ins_115131",
+      "name": "Grant County State Bank",
+      "url": "https://www.grantcostatebank.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Great Erie Federal Credit Union": [
+    {
+      "institution_id": "ins_134908",
+      "name": "Great Erie Federal Credit Union",
+      "url": "https://www.greateriefcu.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_103912",
+      "name": "Great Erie Federal Credit Union",
+      "url": "https://www.netbranch.app.fiserv.com/GreatErieFCU/default.aspx",
+      "primary_color": "#00668f",
+      "logo": "ins_103912.png"
+    }
+  ],
+  "Grundy National Bank": [
+    {
+      "institution_id": "ins_114473",
+      "name": "Grundy National Bank",
+      "url": "https://www.gnbbank.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114473.png"
+    },
+    {
+      "institution_id": "ins_114614",
+      "name": "Grundy National Bank",
+      "url": "https://gnbecom.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114614.png"
+    }
+  ],
+  "Heritage Bank": [
+    {
+      "institution_id": "ins_115194",
+      "name": "Heritage Bank",
+      "url": "https://www.heritagebankna.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_131833",
+      "name": "Heritage Bank",
+      "url": "https://www.ourheritage.bank/",
+      "primary_color": "#00668f",
+      "logo": "ins_131833.png"
+    }
+  ],
+  "Iowa State Bank - Online Banking": [
+    {
+      "institution_id": "ins_114490",
+      "name": "Iowa State Bank - Online Banking",
+      "url": "https://www.bankisb.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114490.png"
+    },
+    {
+      "institution_id": "ins_119534",
+      "name": "Iowa State Bank - Online Banking",
+      "url": "https://www.iowastatebank.net/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Kraken": [
+    {
+      "institution_id": "ins_133283",
+      "name": "Kraken",
+      "url": "https://www.kraken.com/en-ca",
+      "primary_color": "#0075a3",
+      "logo": "ins_133283.png"
+    },
+    {
+      "institution_id": "ins_132615",
+      "name": "Kraken",
+      "url": "https://www.kraken.com/en-ca",
+      "primary_color": "#004966",
+      "logo": "ins_132615.png"
+    }
+  ],
+  "Lexicon Bank": [
+    {
+      "institution_id": "ins_129293",
+      "name": "Lexicon Bank",
+      "url": "https://www.lexiconbank.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_129293.png"
+    },
+    {
+      "institution_id": "ins_129294",
+      "name": "Lexicon Bank",
+      "url": "https://www.lexiconbank.com",
+      "primary_color": "#004966",
+      "logo": "ins_129294.png"
+    }
+  ],
+  "LoanDepot": [
+    {
+      "institution_id": "ins_119880",
+      "name": "LoanDepot",
+      "url": "https://www.loandepot.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Local Bank": [
+    {
+      "institution_id": "ins_120579",
+      "name": "Local Bank",
+      "url": "https://www.localbank.com",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_133560",
+      "name": "Local Bank",
+      "url": "https://www.mylocal.bank",
+      "primary_color": "#004966"
+    }
+  ],
+  "Manufacturers Bank": [
+    {
+      "institution_id": "ins_114065",
+      "name": "Manufacturers Bank",
+      "url": "https://www.manufacturers-ca.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_118755",
+      "name": "Manufacturers Bank",
+      "url": "https://www.manufacturersbank.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Marin County Federal Credit Union": [
+    {
+      "institution_id": "ins_128551",
+      "name": "Marin County Federal Credit Union",
+      "url": "https://www.mobicint.net/mpe/login",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_137120",
+      "name": "Marin County Federal Credit Union",
+      "url": "https://www.marincu.org",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Members First Credit Union": [
+    {
+      "institution_id": "ins_116364",
+      "name": "Members First Credit Union",
+      "url": "https://www.mfcu.net/",
+      "primary_color": "#004966",
+      "logo": "ins_116364.png"
+    },
+    {
+      "institution_id": "ins_117118",
+      "name": "Members First Credit Union",
+      "url": "https://www.m1st.org",
+      "primary_color": "#00668f",
+      "logo": "ins_117118.png"
+    }
+  ],
+  "Mercantile Bank": [
+    {
+      "institution_id": "ins_110721",
+      "name": "Mercantile Bank",
+      "url": "https://www.mercbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_110721.png"
+    },
+    {
+      "institution_id": "ins_114644",
+      "name": "Mercantile Bank",
+      "url": "http://www.mercantilebk.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114644.png"
+    }
+  ],
+  "Merchants and Planters Bank": [
+    {
+      "institution_id": "ins_120300",
+      "name": "Merchants and Planters Bank",
+      "url": "https://www.mandpbank.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_137061",
+      "name": "Merchants and Planters Bank",
+      "url": "https://www.mpbank.net",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Midwest Heritage": [
+    {
+      "institution_id": "ins_113745",
+      "name": "Midwest Heritage",
+      "url": "https://www.mhbank.com",
+      "primary_color": "#004966",
+      "logo": "ins_113745.png"
+    },
+    {
+      "institution_id": "ins_132171",
+      "name": "Midwest Heritage",
+      "url": "https://www.mhbank.com",
+      "primary_color": "#004966",
+      "logo": "ins_132171.png"
+    }
+  ],
+  "National Penn Bank": [
+    {
+      "institution_id": "ins_125450",
+      "name": "National Penn Bank",
+      "url": "http://www.natpennbank.com",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_120122",
+      "name": "National Penn Bank",
+      "url": "https://nationalpenn.onlinebank.com/1820/",
+      "primary_color": "#8a2b43",
+      "logo": "ins_120122.png"
+    }
+  ],
+  "NBT 401k (Plan Participant)": [
+    {
+      "institution_id": "ins_119064",
+      "name": "NBT 401k (Plan Participant)",
+      "url": "https://www.go-retire.com/login",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_126902",
+      "name": "NBT 401k (Plan Participant)",
+      "url": "https://www.go-retire.com/login",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Nebraska State Bank & Trust Company": [
+    {
+      "institution_id": "ins_138291",
+      "name": "Nebraska State Bank & Trust Company - Business",
+      "url": "https://www.nesb.bank/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_114907",
+      "name": "Nebraska State Bank & Trust Company - Personal",
+      "url": "https://www.nesb.bank/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "North Star Community Credit Union": [
+    {
+      "institution_id": "ins_132408",
+      "name": "North Star Community Credit Union",
+      "url": "https://www.northstarccu.com/",
+      "primary_color": "#004966",
+      "logo": "ins_132408.png"
+    },
+    {
+      "institution_id": "ins_128118",
+      "name": "North Star Community Credit Union",
+      "url": "https://www.nsccu.org/",
+      "primary_color": "#004966"
+    }
+  ],
+  "North Sydney Credit Union": [
+    {
+      "institution_id": "ins_133338",
+      "name": "North Sydney Credit Union",
+      "url": "https://www.northsydneycreditunion.com",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_133355",
+      "name": "North Sydney Credit Union",
+      "url": "https://www.northsydneycreditunion.com",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "North Valley Bank": [
+    {
+      "institution_id": "ins_114080",
+      "name": "North Valley Bank",
+      "url": "https://www.nvbank.bank/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_111393",
+      "name": "North Valley Bank",
+      "url": "http://www.nvbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_111393.png"
+    }
+  ],
+  "Northwestern Bank - Business": [
+    {
+      "institution_id": "ins_132057",
+      "name": "Northwestern Bank - Business",
+      "url": "https://www.nwbonline.bank/",
+      "primary_color": "#004966",
+      "logo": "ins_132057.png"
+    },
+    {
+      "institution_id": "ins_135908",
+      "name": "Northwestern Bank - Business",
+      "url": "https://www.northwesternbank.com/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Ohio Valley Federal Credit Union": [
+    {
+      "institution_id": "ins_106113",
+      "name": "Ohio Valley Federal Credit Union",
+      "url": "https://www.secure-ovfcu.org",
+      "primary_color": "#004966",
+      "logo": "ins_106113.png"
+    },
+    {
+      "institution_id": "ins_135324",
+      "name": "Ohio Valley Federal Credit Union",
+      "url": "https://www.ovfcu.org",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Olive View Federal Credit Union": [
+    {
+      "institution_id": "ins_135329",
+      "name": "Olive View Federal Credit Union",
+      "url": "https://www.oliveviewfcu.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_117050",
+      "name": "Olive View Federal Credit Union",
+      "url": "https://www.netit.financial-net.com/oliveviewfcu/cgi-bin/ebs",
+      "primary_color": "#231f21",
+      "logo": "ins_117050.png"
+    }
+  ],
+  "OneDigital": [
+    {
+      "institution_id": "ins_132718",
+      "name": "OneDigital",
+      "url": "https://www.onedigital.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_132883",
+      "name": "OneDigital",
+      "url": "https://tec.prismhr.com",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Peoples Bank - Personal": [
+    {
+      "institution_id": "ins_113844",
+      "name": "Peoples Bank - Personal",
+      "url": "https://www.ibankpeoples.com/",
+      "primary_color": "#004966",
+      "logo": "ins_113844.png"
+    },
+    {
+      "institution_id": "ins_114503",
+      "name": "Peoples Bank - Personal",
+      "url": "https://www.pbbanking.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114503.png"
+    }
+  ],
+  "Peoples Bank (Lubbock, TX) - Business": [
+    {
+      "institution_id": "ins_132041",
+      "name": "Peoples Bank (Lubbock, TX) - Business",
+      "url": "http://www.peoplesbanktexas.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_132041.png"
+    },
+    {
+      "institution_id": "ins_132040",
+      "name": "Peoples Bank (Lubbock, TX) - Business",
+      "url": "http://www.peoplesbanktexas.com",
+      "primary_color": "#00668f",
+      "logo": "ins_132040.png"
+    }
+  ],
+  "Peoples Bank & Trust": [
+    {
+      "institution_id": "ins_115278",
+      "name": "Peoples Bank & Trust",
+      "url": "https://www.bankpbt.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_110517",
+      "name": "Peoples Bank & Trust",
+      "url": "http://www.peoples.bank",
+      "primary_color": "#004966",
+      "logo": "ins_110517.png"
+    }
+  ],
+  "Peoples Community Bank": [
+    {
+      "institution_id": "ins_115491",
+      "name": "Peoples Community Bank",
+      "url": "http://www.peoplescommunitybank.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_111586",
+      "name": "Peoples Community Bank",
+      "url": "https://www.peoplescommunitybank.biz/",
+      "primary_color": "#00668f",
+      "logo": "ins_111586.png"
+    }
+  ],
+  "Peoples Exchange Bank": [
+    {
+      "institution_id": "ins_114457",
+      "name": "Peoples Exchange Bank - Personal",
+      "url": "https://www.pebank.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_114457.png"
+    }
+  ],
+  "Peoples Savings Bank": [
+    {
+      "institution_id": "ins_134143",
+      "name": "Peoples Savings Bank",
+      "url": "https://www.bankpsb.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_138792",
+      "name": "Peoples Savings Bank",
+      "url": "https://www.bankpsb.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Peoples State Bank (Munising, MI) - Personal": [
+    {
+      "institution_id": "ins_106450",
+      "name": "Peoples State Bank (Munising, MI) - Personal",
+      "url": "https://www.psbup.com",
+      "primary_color": "#023702",
+      "logo": "ins_106450.png"
+    },
+    {
+      "institution_id": "ins_132174",
+      "name": "Peoples State Bank (Munising, MI) - Business",
+      "url": "https://www.psbup.com",
+      "primary_color": "#023702",
+      "logo": "ins_132174.png"
+    }
+  ],
+  "Peoples State Bank": [
+    {
+      "institution_id": "ins_134145",
+      "name": "Peoples State Bank",
+      "url": "http://www.psbokonline.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_136934",
+      "name": "Peoples State Bank",
+      "url": "www.psbnd.com",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Peru Federal Savings Bank": [
+    {
+      "institution_id": "ins_138790",
+      "name": "Peru Federal Savings Bank",
+      "url": "https://www.perufederalsavings.com/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_134148",
+      "name": "Peru Federal Savings Bank",
+      "url": "https://www.perufederalsavings.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Prospera Credit Union": [
+    {
+      "institution_id": "ins_116218",
+      "name": "Prospera Credit Union",
+      "url": "https://www.prospera.ca/",
+      "primary_color": "#fee275"
+    },
+    {
+      "institution_id": "ins_116448",
+      "name": "Prospera Credit Union",
+      "url": "https://myprospera.com/",
+      "primary_color": "#004966",
+      "logo": "ins_116448.png"
+    }
+  ],
+  "Security Bank": [
+    {
+      "institution_id": "ins_114173",
+      "name": "Security Bank",
+      "url": "http://www.bankatsecurity.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_114173.png"
+    },
+    {
+      "institution_id": "ins_111456",
+      "name": "Security Bank",
+      "url": "https://www.mysbank.com/",
+      "primary_color": "#004966",
+      "logo": "ins_111456.png"
+    },
+    {
+      "institution_id": "ins_115137",
+      "name": "Security Bank",
+      "url": "https://www.securitybk.com/",
+      "primary_color": "#651220"
+    },
+    {
+      "institution_id": "ins_134184",
+      "name": "Security Bank (WI) - Personal",
+      "url": "https://www.securityonlinebank.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_136709",
+      "name": "Security Bank",
+      "url": "https://www.secbnk.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Security Savings Bank": [
+    {
+      "institution_id": "ins_134191",
+      "name": "Security Savings Bank",
+      "url": "https://www.securitysavings.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_115077",
+      "name": "Security Savings Bank",
+      "url": "https://www.bankwithssb.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Security State Bank": [
+    {
+      "institution_id": "ins_114449",
+      "name": "Security State Bank",
+      "url": "https://www.ssbscott.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_114449.png"
+    },
+    {
+      "institution_id": "ins_111798",
+      "name": "Security State Bank",
+      "url": "https://www.ssbwyo.bank/",
+      "primary_color": "#004966",
+      "logo": "ins_111798.png"
+    },
+    {
+      "institution_id": "ins_114977",
+      "name": "Security State Bank",
+      "url": "https://securitystate.net/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_134196",
+      "name": "Security State Bank - Personal",
+      "url": "https://www.sbankonline.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Security State Bank - Personal": [
+    {
+      "institution_id": "ins_113171",
+      "name": "Security State Bank - Personal",
+      "url": "https://www.ssbmn.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_113171.png"
+    },
+    {
+      "institution_id": "ins_115026",
+      "name": "Security State Bank - Personal",
+      "url": "https://securitystbk.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Shelby County State Bank": [
+    {
+      "institution_id": "ins_107361",
+      "name": "Shelby County State Bank",
+      "url": "http://www.scs-bank.com",
+      "primary_color": "#004966",
+      "logo": "ins_107361.png"
+    },
+    {
+      "institution_id": "ins_107360",
+      "name": "Shelby County State Bank",
+      "url": "https://www.scsbnet.com",
+      "primary_color": "#0075a3",
+      "logo": "ins_107360.png"
+    }
+  ],
+  "South Metro Federal Credit Union": [
+    {
+      "institution_id": "ins_135547",
+      "name": "NorthWinds Federal Credit Union",
+      "url": "https://www.northwindsfcu.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_117091",
+      "name": "South Metro Credit Union",
+      "url": "https://www.southmet.com",
+      "primary_color": "#003466",
+      "logo": "ins_117091.png"
+    }
+  ],
+  "The Bank": [
+    {
+      "institution_id": "ins_115249",
+      "name": "The Bank",
+      "url": "https://www.thebank.bank/",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_134248",
+      "name": "The Bank",
+      "url": "https://www.thebank.bank/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "The Bank of Commerce": [
+    {
+      "institution_id": "ins_113901",
+      "name": "The Bank of Commerce",
+      "url": "https://www.bofc.bank/",
+      "primary_color": "#004966",
+      "logo": "ins_113901.png"
+    },
+    {
+      "institution_id": "ins_134250",
+      "name": "The Bank of Commerce",
+      "url": "https://www.bkofcommerce.com/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "The Citizens Bank": [
+    {
+      "institution_id": "ins_108011",
+      "name": "The Citizens Bank",
+      "url": "https://www.citizenshickman.com/ ",
+      "primary_color": "#8aac16",
+      "logo": "ins_108011.png"
+    },
+    {
+      "institution_id": "ins_110459",
+      "name": "The Citizens Bank",
+      "url": "http://www.thecitizensbankphila.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_110459.png"
+    },
+    {
+      "institution_id": "ins_136891",
+      "name": "The Citizens Bank",
+      "url": "https://www.tcbenterprise.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "The Community Bank": [
+    {
+      "institution_id": "ins_111590",
+      "name": "The Community Bank",
+      "url": "https://www.thecombank.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111590.png"
+    },
+    {
+      "institution_id": "ins_113381",
+      "name": "The Community Bank",
+      "url": "http://www.communitybankliberal.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_113381.png"
+    }
+  ],
+  "The Farmers State Bank": [
+    {
+      "institution_id": "ins_110793",
+      "name": "The Farmers State Bank",
+      "url": "http://www.fsbwathena.com",
+      "primary_color": "#004966",
+      "logo": "ins_110793.png"
+    },
+    {
+      "institution_id": "ins_137013",
+      "name": "The Farmers State Bank",
+      "url": "https://www.fsbmarcus.com",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "The Morris State Bank": [
+    {
+      "institution_id": "ins_128668",
+      "name": "The Morris State Bank",
+      "url": "http://www.morrisstatebank.com",
+      "primary_color": "#00668f"
+    },
+    {
+      "institution_id": "ins_128625",
+      "name": "The Morris State Bank",
+      "url": "http://www.morrisstatebank.com",
+      "primary_color": "#004966"
+    }
+  ],
+  "The Peoples Bank": [
+    {
+      "institution_id": "ins_134331",
+      "name": "The Peoples Bank",
+      "url": "https://www.thepeoplesbank-ky.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_134334",
+      "name": "The Peoples Bank",
+      "url": "https://www.thepeoplesbankoftn.com/",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_111725",
+      "name": "The Peoples Bank",
+      "url": "http://www.peoplesripley.com/",
+      "primary_color": "#0075a3",
+      "logo": "ins_111725.png"
+    },
+    {
+      "institution_id": "ins_138892",
+      "name": "The Peoples Bank",
+      "url": "https://banktpb.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_138892.png"
+    }
+  ],
+  "The Police Credit Union": [
+    {
+      "institution_id": "ins_110540",
+      "name": "The Police Credit Union",
+      "url": "https://www.thepolicecu.org/",
+      "primary_color": "#0075a3",
+      "logo": "ins_110540.png"
+    },
+    {
+      "institution_id": "ins_131946",
+      "name": "The Police Credit Union",
+      "url": "https://www.tpcu.on.ca/",
+      "primary_color": "#004966"
+    }
+  ],
+  "The Portage County Bank": [
+    {
+      "institution_id": "ins_114749",
+      "name": "The Portage County Bank - Personal",
+      "url": "https://www.portagecountybank.com/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Total HR": [
+    {
+      "institution_id": "ins_132885",
+      "name": "Total HR",
+      "url": "https://thr.prismhr.com",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_132889",
+      "name": "Total HR",
+      "url": "https://toh.prismhr.com",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Turning Point Associates": [
+    {
+      "institution_id": "ins_128751",
+      "name": "Turning Point Associates",
+      "url": "https://www.retirementaccountlogin.net/turningpoint",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_128792",
+      "name": "Turning Point Associates",
+      "url": "https://www.retirementaccountlogin.net/turningpoint",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "Union Bank": [
+    {
+      "institution_id": "ins_138253",
+      "name": "Union Bank",
+      "url": "https://www.ublocal.com",
+      "primary_color": "#00668f",
+      "logo": "ins_138253.png"
+    },
+    {
+      "institution_id": "ins_120574",
+      "name": "Union Bank",
+      "url": "www.gounion.bank",
+      "primary_color": "#00668f",
+      "logo": "ins_120574.png"
+    },
+    {
+      "institution_id": "ins_111529",
+      "name": "Union Bank",
+      "url": "https://www.ubmich.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_111529.png"
+    }
+  ],
+  "Union State Bank": [
+    {
+      "institution_id": "ins_138462",
+      "name": "Union State Bank",
+      "url": "https://www.usbgfd.com/",
+      "primary_color": "#004966",
+      "logo": "ins_138462.png"
+    },
+    {
+      "institution_id": "ins_110770",
+      "name": "Union State Bank",
+      "url": "https://www.myunionstate.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_110770.png"
+    },
+    {
+      "institution_id": "ins_115363",
+      "name": "Union State Bank",
+      "url": "https://www.betterstate.com/",
+      "primary_color": "#00668f"
+    }
+  ],
+  "United Community Credit Union": [
+    {
+      "institution_id": "ins_136416",
+      "name": "United Community Credit Union",
+      "url": "https://www.unitedccu.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_135704",
+      "name": "United Community Credit Union",
+      "url": "https://myuccu.com",
+      "primary_color": "#ffffff"
+    },
+    {
+      "institution_id": "ins_120478",
+      "name": "United Community Credit Union",
+      "url": "https://www.unitedccu.com",
+      "primary_color": "#00668f"
+    }
+  ],
+  "Vermillion Credit Union": [
+    {
+      "institution_id": "ins_121098",
+      "name": "Vermillion Credit Union",
+      "url": "https://vermillionfcu.com/",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_131949",
+      "name": "Vermillion Credit Union",
+      "url": "https://www.vermilioncreditunion.com/Personal/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Vida Federal Credit Union": [
+    {
+      "institution_id": "ins_122776",
+      "name": "Vida Federal Credit Union",
+      "url": "https://www.vidafcu.org/",
+      "primary_color": "#00668f",
+      "logo": "ins_122776.png"
+    },
+    {
+      "institution_id": "ins_109714",
+      "name": "Vida Federal Credit Union",
+      "url": "https://www.vidafcu.org/",
+      "primary_color": "#00668f",
+      "logo": "ins_109714.png"
+    }
+  ],
+  "Washington State Bank": [
+    {
+      "institution_id": "ins_111547",
+      "name": "Washington State Bank",
+      "url": "https://www.washsb.com/",
+      "primary_color": "#00668f",
+      "logo": "ins_111547.png"
+    },
+    {
+      "institution_id": "ins_115371",
+      "name": "Washington State Bank",
+      "url": "https://www.wsbankla.com/",
+      "primary_color": "#004966"
+    }
+  ],
+  "Wellington State Bank": [
+    {
+      "institution_id": "ins_124872",
+      "name": "Wellington State Bank",
+      "url": "http://www.wellingtonsb.com",
+      "primary_color": "#004966"
+    },
+    {
+      "institution_id": "ins_134400",
+      "name": "Wellington State Bank",
+      "url": "https://www.wellingtonsb.bank/",
+      "primary_color": "#ffffff"
+    }
+  ],
+  "Winchester Co-operative Bank": [
+    {
+      "institution_id": "ins_120115",
+      "name": "Winchester Co-operative Bank",
+      "url": "https://secure.myvirtualbranch.com/wcbonline/Login.aspx",
+      "primary_color": "#0d60b9",
+      "logo": "ins_120115.png"
+    },
+    {
+      "institution_id": "ins_123683",
+      "name": "Winchester Co-operative Bank",
+      "url": "https://www.wcbonline.com/",
+      "primary_color": "#0075a3"
+    }
+  ],
+  "WYO Central Federal Credit Union": [
+    {
+      "institution_id": "ins_128558",
+      "name": "WYO Central Federal Credit Union",
+      "url": "https://wyo.mycardinfo.com/",
+      "primary_color": "#0075a3"
+    },
+    {
+      "institution_id": "ins_128588",
+      "name": "WYO Central Federal Credit Union",
+      "url": "https://wyo.mycardinfo.com/",
+      "primary_color": "#0075a3"
+    }
+  ]
+}
