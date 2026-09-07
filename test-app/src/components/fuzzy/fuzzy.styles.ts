@@ -25,9 +25,29 @@ export const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#222',
     },
+    itemContent: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    textContent: {
+        flex: 1,
+        marginLeft: 12,
+    },
     name: {
         color: '#fff',
         fontSize: 16,
+        fontWeight: 'bold',
+    },
+    url: {
+        color: '#888',
+        fontSize: 12,
+        marginTop: 2,
+    },
+    logo: {
+        width: 40,
+        height: 40,
+        borderRadius: 20,
     },
     highlightedItem: {
         backgroundColor: '#1a1a1a',
@@ -36,7 +56,6 @@ export const styles = StyleSheet.create({
     },
     highlightedName: {
         color: '#6366f1',
-        fontWeight: '600',
     },
 });
 

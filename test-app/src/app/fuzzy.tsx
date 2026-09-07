@@ -1,8 +1,13 @@
 import { useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import institutions from '../assets/institutions.json';
+import logoMap from '../assets/logoMap';
+import genericLogo from '../assets/generic_bank_logo.png';
 import { FuzzyTemplate } from '@/components/fuzzy/fuzzy.template';
 import { Institution } from '@/components/fuzzy/fuzzy.types';
+
+// Build set of IDs that have specific logos
+const logoIdSet = new Set(Object.keys(logoMap).map(key => key.replace('.png', '')));
 
 export default function FuzzySearch() {
     const [query, setQuery] = useState('');
@@ -32,11 +37,19 @@ export default function FuzzySearch() {
         return () => clearTimeout(timer);
     }, [query, fuse]);
 
+    const getLogo = (item: Institution) => {
+        if (logoIdSet.has(item.institution_id)) {
+            return logoMap[item.institution_id + '.png'];
+        }
+        return genericLogo;
+    };
+
     return (
         <FuzzyTemplate
             query={query}
             onQueryChange={setQuery}
             results={results}
+            getLogo={getLogo}
         />
     );
 }

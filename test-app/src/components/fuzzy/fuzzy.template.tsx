@@ -1,4 +1,4 @@
-import { View, Text, TextInput, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, FlatList, TouchableOpacity, Image } from 'react-native';
 import styles from '@/components/fuzzy/fuzzy.styles';
 import { Institution } from './fuzzy.types';
 
@@ -7,9 +7,10 @@ interface FuzzyTemplateProps {
     onQueryChange: (text: string) => void;
     results: Institution[];
     onSelect?: (item: Institution) => void;
+    getLogo: (item: Institution) => any;
 }
 
-export function FuzzyTemplate({ query, onQueryChange, results, onSelect }: FuzzyTemplateProps) {
+export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo }: FuzzyTemplateProps) {
     return (
         <View style={styles.container}>
             <TextInput
@@ -24,7 +25,7 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect }: Fuzzy
             <Text style={styles.count}>{results.length} results</Text>
             <FlatList
                 data={results}
-                keyExtractor={item => item.name}
+                keyExtractor={item => item.institution_id}
                 renderItem={({ item, index }) => (
                     <TouchableOpacity
                         style={[
@@ -33,9 +34,18 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect }: Fuzzy
                         ]}
                         onPress={() => onSelect?.(item)}
                     >
-                        <Text style={[styles.name, index === 0 && styles.highlightedName]}>
-                            {item.name}
-                        </Text>
+                        <View style={styles.itemContent}>
+                            <Image
+                                source={getLogo(item)}
+                                style={styles.logo}
+                                resizeMode="cover"
+                            />
+                            <View style={styles.textContent}>
+                                <Text style={[styles.name, index === 0 && styles.highlightedName]}>
+                                    {item.name}
+                                </Text>
+                            </View>
+                        </View>
                     </TouchableOpacity>
                 )}
                 initialNumToRender={20}
