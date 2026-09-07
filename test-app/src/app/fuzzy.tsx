@@ -1,20 +1,19 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Animated } from 'react-native';
 import Fuse from 'fuse.js';
 import institutions from '../assets/institutions.json';
 import logoMap from '../assets/logoMap';
 import genericLogo from '../assets/generic_bank_logo.png';
 import { FuzzyTemplate } from '@/components/fuzzy/fuzzy.template';
-import { Institution } from '@/components/fuzzy/fuzzy.types';
+import { Institution, RowItem } from '@/components/fuzzy/fuzzy.types';
 
-// Build set of IDs that have specific logos
 const logoIdSet = new Set(Object.keys(logoMap).map(key => key.replace('.png', '')));
 
 export default function FuzzySearch() {
     const [query, setQuery] = useState('');
-    const [results, setResults] = useState<Institution[]>(institutions as Institution[]);
+    const [rows, setRows] = useState<RowItem[]>([]);
     const [showCount, setShowCount] = useState(false);
     const [selectedId, setSelectedId] = useState<string | null>(null);
+    const [expandedName, setExpandedName] = useState<string | null>(null);
 
     const fuse = useMemo(
         () =>
@@ -29,15 +28,36 @@ export default function FuzzySearch() {
     useEffect(() => {
         const timer = setTimeout(() => {
             if (!query.trim()) {
-                setResults(institutions as Institution[]);
+                setRows((institutions as Institution[]).map(item => ({ type: 'unique', item })));
                 setShowCount(false);
                 setSelectedId(null);
+                setExpandedName(null);
                 return;
             }
             const searched = fuse.search(query);
-            setResults(searched.map(r => r.item));
+            const results = searched.map(r => r.item);
+
+            const nameMap = new Map<string, Institution[]>();
+            for (const item of results) {
+                if (!nameMap.has(item.name)) {
+                    nameMap.set(item.name, []);
+                }
+                nameMap.get(item.name)!.push(item);
+            }
+
+            const grouped: RowItem[] = [];
+            for (const [name, items] of nameMap) {
+                if (items.length === 1) {
+                    grouped.push({ type: 'unique', item: items[0] });
+                } else {
+                    grouped.push({ type: 'duplicate', name, items });
+                }
+            }
+
+            setRows(grouped);
             setShowCount(true);
-            setSelectedId(searched.length > 0 ? searched[0].item.institution_id : null);
+            setSelectedId(results.length > 0 ? results[0].institution_id : null);
+            setExpandedName(null);
         }, 200);
 
         return () => clearTimeout(timer);
@@ -54,11 +74,13 @@ export default function FuzzySearch() {
         <FuzzyTemplate
             query={query}
             onQueryChange={setQuery}
-            results={results}
+            rows={rows}
             getLogo={getLogo}
             showCount={showCount}
             selectedId={selectedId}
+            expandedName={expandedName}
             onSelect={(item) => setSelectedId(item.institution_id)}
+            onToggleExpand={(name) => setExpandedName(prev => (prev === name ? null : name))}
         />
     );
 }

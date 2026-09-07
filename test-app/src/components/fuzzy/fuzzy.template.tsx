@@ -1,18 +1,30 @@
 import { View, Text, TextInput, FlatList, Pressable, Image } from 'react-native';
 import styles from '@/components/fuzzy/fuzzy.styles';
-import { Institution } from './fuzzy.types';
+import { Institution, RowItem } from './fuzzy.types';
 
 interface FuzzyTemplateProps {
     query: string;
     onQueryChange: (text: string) => void;
-    results: Institution[];
-    onSelect?: (item: Institution) => void;
+    rows: RowItem[];
     getLogo: (item: Institution) => any;
     showCount: boolean;
     selectedId: string | null;
+    expandedName: string | null;
+    onSelect: (item: Institution) => void;
+    onToggleExpand: (name: string) => void;
 }
 
-export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo, showCount, selectedId }: FuzzyTemplateProps) {
+export function FuzzyTemplate({
+    query,
+    onQueryChange,
+    rows,
+    getLogo,
+    showCount,
+    selectedId,
+    expandedName,
+    onSelect,
+    onToggleExpand,
+}: FuzzyTemplateProps) {
     return (
         <View style={styles.container}>
             <TextInput
@@ -25,35 +37,65 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                 autoCapitalize="none"
             />
             {showCount && (
-                <Text style={styles.count}>{results.length} results</Text>
+                <Text style={styles.count}>
+                    {rows.reduce((acc, r) => acc + (r.type === 'unique' ? 1 : r.items.length), 0)} results
+                </Text>
             )}
             <FlatList
-                data={results}
-                keyExtractor={item => item.institution_id}
-                renderItem={({ item }) => (
-                    <Pressable
-                        style={styles.item}
-                        onPressIn={() => onSelect?.(item)}
-                    >
-                        <View style={styles.itemContent}>
-                            <Text style={[styles.selector, item.institution_id === selectedId && styles.highlightedSelector]}>
-                                {item.institution_id === selectedId ? '>' : ' '}
-                            </Text>
-                            <View style={styles.logoWrapper}>
-                                <Image
-                                    source={getLogo(item)}
-                                    style={styles.logo}
-                                    resizeMode="cover"
-                                />
-                            </View>
-                            <View style={styles.textContent}>
-                                <Text style={[styles.name, item.institution_id === selectedId && styles.highlightedName]}>
-                                    {item.name}
+                data={rows}
+                keyExtractor={(row) => row.type === 'unique' ? row.item.institution_id : row.name}
+                renderItem={({ item }) => {
+                    if (item.type === 'unique') {
+                        const isSelected = item.item.institution_id === selectedId;
+                        return (
+                            <Pressable
+                                key={item.item.institution_id}
+                                style={[styles.item, { flexDirection: 'row', alignItems: 'center' }]}
+                                onPressIn={() => onSelect(item.item)}
+                            >
+                                <Text style={[styles.name, isSelected && styles.highlightedName]}>
+                                    {item.item.name}
                                 </Text>
-                            </View>
+                            </Pressable>
+                        );
+                    }
+
+                    const isExpanded = expandedName === item.name;
+                    const hasSelectedInGroup = item.items.some(i => i.institution_id === selectedId);
+
+                    return (
+                        <View key={item.name}>
+                            <Pressable
+                                style={[styles.item, { flexDirection: 'row', alignItems: 'center' }]}
+                                onPressIn={() => {
+                                    onToggleExpand(item.name);
+                                    onSelect(item.items[0]);
+                                }}
+                            >
+                                <Text style={[styles.name, hasSelectedInGroup && styles.highlightedName]}>
+                                    {item.name} ({item.items.length})
+                                </Text>
+                            </Pressable>
+                            {isExpanded && (
+                                <View style={styles.logoGrid}>
+                                    {item.items.map(inst => (
+                                        <Pressable
+                                            key={inst.institution_id}
+                                            style={styles.logoGridItem}
+                                            onPressIn={() => onSelect(inst)}
+                                        >
+                                            <Image
+                                                source={getLogo(inst)}
+                                                style={styles.gridLogo}
+                                                resizeMode="cover"
+                                            />
+                                        </Pressable>
+                                    ))}
+                                </View>
+                            )}
                         </View>
-                    </Pressable>
-                )}
+                    );
+                }}
                 initialNumToRender={20}
                 maxToRenderPerBatch={20}
                 windowSize={10}

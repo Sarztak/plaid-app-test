@@ -22,6 +22,8 @@ export const styles = StyleSheet.create({
     },
     item: {
         paddingVertical: 12,
+        flexDirection: 'row',
+        alignItems: 'center',
     },
     itemContent: {
         flexDirection: 'row',
@@ -36,6 +38,7 @@ export const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 16,
         fontFamily: 'Courier',
+        marginLeft: 28,
     },
     url: {
         color: '#888',
@@ -75,6 +78,29 @@ export const styles = StyleSheet.create({
     highlightedSelector: {
         color: '#6366f1',
         fontWeight: 'bold',
+    },
+    logoGrid: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        paddingVertical: 8,
+        paddingLeft: 28,
+    },
+    logoGridItem: {
+        width: 40,
+        height: 40,
+        borderRadius: 20,
+        overflow: 'hidden',
+        marginRight: 8,
+        marginBottom: 8,
+        backgroundColor: '#1a1a1a',
+    },
+    logoGridItemSelected: {
+        borderWidth: 2,
+        borderColor: '#6366f1',
+    },
+    gridLogo: {
+        width: 40,
+        height: 40,
     },
 });
 

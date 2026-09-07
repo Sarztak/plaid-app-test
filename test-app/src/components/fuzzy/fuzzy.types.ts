@@ -4,5 +4,9 @@ export interface Institution {
     country: string;
     logo?: string;
     url?: string;
-    [key: string]: string;
+    [key: string]: string | undefined;
 }
+
+export type RowItem =
+    | { type: 'unique'; item: Institution }
+    | { type: 'duplicate'; name: string; items: Institution[] };
