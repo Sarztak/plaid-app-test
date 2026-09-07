@@ -9,9 +9,10 @@ interface FuzzyTemplateProps {
     onSelect?: (item: Institution) => void;
     getLogo: (item: Institution) => any;
     showCount: boolean;
+    selectedId: string | null;
 }
 
-export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo, showCount }: FuzzyTemplateProps) {
+export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo, showCount, selectedId }: FuzzyTemplateProps) {
     return (
         <View style={styles.container}>
             <TextInput
@@ -29,15 +30,15 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
             <FlatList
                 data={results}
                 keyExtractor={item => item.institution_id}
-                renderItem={({ item, index }) => (
+                renderItem={({ item }) => (
                     <TouchableOpacity
-                        style={[
-                            styles.item,
-                            index === 0 && styles.highlightedItem,
-                        ]}
+                        style={styles.item}
                         onPress={() => onSelect?.(item)}
                     >
                         <View style={styles.itemContent}>
+                            <Text style={[styles.selector, item.institution_id === selectedId && styles.highlightedSelector]}>
+                                {item.institution_id === selectedId ? '>' : ' '}
+                            </Text>
                             <View style={styles.logoWrapper}>
                                 <Image
                                     source={getLogo(item)}
@@ -46,7 +47,7 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                                 />
                             </View>
                             <View style={styles.textContent}>
-                                <Text style={[styles.name, index === 0 && styles.highlightedName]}>
+                                <Text style={[styles.name, item.institution_id === selectedId && styles.highlightedName]}>
                                     {item.name}
                                 </Text>
                             </View>

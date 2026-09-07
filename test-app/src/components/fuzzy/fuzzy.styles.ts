@@ -22,8 +22,6 @@ export const styles = StyleSheet.create({
     },
     item: {
         paddingVertical: 12,
-        borderBottomWidth: 1,
-        borderBottomColor: '#222',
     },
     itemContent: {
         flexDirection: 'row',
@@ -37,7 +35,7 @@ export const styles = StyleSheet.create({
     name: {
         color: '#fff',
         fontSize: 16,
-        fontWeight: 'bold',
+        fontFamily: 'Courier',
     },
     url: {
         color: '#888',
@@ -64,6 +62,19 @@ export const styles = StyleSheet.create({
     },
     highlightedName: {
         color: '#6366f1',
+        fontWeight: 'bold',
+    },
+    selector: {
+        color: '#fff',
+        fontSize: 18,
+        fontFamily: 'Courier',
+        width: 20,
+        textAlign: 'right',
+        marginRight: 8,
+    },
+    highlightedSelector: {
+        color: '#6366f1',
+        fontWeight: 'bold',
     },
 });
 

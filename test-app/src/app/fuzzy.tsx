@@ -13,6 +13,7 @@ export default function FuzzySearch() {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<Institution[]>(institutions as Institution[]);
     const [showCount, setShowCount] = useState(false);
+    const [selectedId, setSelectedId] = useState<string | null>(null);
 
     const fuse = useMemo(
         () =>
@@ -29,11 +30,13 @@ export default function FuzzySearch() {
             if (!query.trim()) {
                 setResults(institutions as Institution[]);
                 setShowCount(false);
+                setSelectedId(null);
                 return;
             }
             const searched = fuse.search(query);
             setResults(searched.map(r => r.item));
             setShowCount(true);
+            setSelectedId(searched.length > 0 ? searched[0].item.institution_id : null);
         }, 200);
 
         return () => clearTimeout(timer);
@@ -53,6 +56,8 @@ export default function FuzzySearch() {
             results={results}
             getLogo={getLogo}
             showCount={showCount}
+            selectedId={selectedId}
+            onSelect={(item) => setSelectedId(item.institution_id)}
         />
     );
 }
