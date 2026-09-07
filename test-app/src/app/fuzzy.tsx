@@ -12,6 +12,7 @@ const logoIdSet = new Set(Object.keys(logoMap).map(key => key.replace('.png', ''
 export default function FuzzySearch() {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<Institution[]>(institutions as Institution[]);
+    const [showCount, setShowCount] = useState(false);
 
     const fuse = useMemo(
         () =>
@@ -27,11 +28,13 @@ export default function FuzzySearch() {
         const timer = setTimeout(() => {
             if (!query.trim()) {
                 setResults(institutions as Institution[]);
+                setShowCount(false);
                 return;
             }
             const searched = fuse.search(query);
             setResults(searched.map(r => r.item));
-        }, 200); // might need to optimize based on further tests, 300ms was too slow
+            setShowCount(true);
+        }, 200);
 
         return () => clearTimeout(timer);
     }, [query, fuse]);
@@ -49,6 +52,7 @@ export default function FuzzySearch() {
             onQueryChange={setQuery}
             results={results}
             getLogo={getLogo}
+            showCount={showCount}
         />
     );
 }

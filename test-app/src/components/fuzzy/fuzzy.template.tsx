@@ -8,9 +8,10 @@ interface FuzzyTemplateProps {
     results: Institution[];
     onSelect?: (item: Institution) => void;
     getLogo: (item: Institution) => any;
+    showCount: boolean;
 }
 
-export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo }: FuzzyTemplateProps) {
+export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo, showCount }: FuzzyTemplateProps) {
     return (
         <View style={styles.container}>
             <TextInput
@@ -22,7 +23,9 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                 autoCorrect={false}
                 autoCapitalize="none"
             />
-            <Text style={styles.count}>{results.length} results</Text>
+            {showCount && (
+                <Text style={styles.count}>{results.length} results</Text>
+            )}
             <FlatList
                 data={results}
                 keyExtractor={item => item.institution_id}
