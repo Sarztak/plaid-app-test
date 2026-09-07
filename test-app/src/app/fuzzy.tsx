@@ -13,7 +13,6 @@ export default function FuzzySearch() {
     const [rows, setRows] = useState<RowItem[]>([]);
     const [showCount, setShowCount] = useState(false);
     const [selectedId, setSelectedId] = useState<string | null>(null);
-    const [expandedName, setExpandedName] = useState<string | null>(null);
 
     const fuse = useMemo(
         () =>
@@ -31,7 +30,6 @@ export default function FuzzySearch() {
                 setRows((institutions as Institution[]).map(item => ({ type: 'unique', item })));
                 setShowCount(false);
                 setSelectedId(null);
-                setExpandedName(null);
                 return;
             }
             const searched = fuse.search(query);
@@ -57,7 +55,6 @@ export default function FuzzySearch() {
             setRows(grouped);
             setShowCount(true);
             setSelectedId(results.length > 0 ? results[0].institution_id : null);
-            setExpandedName(null);
         }, 200);
 
         return () => clearTimeout(timer);
@@ -78,9 +75,7 @@ export default function FuzzySearch() {
             getLogo={getLogo}
             showCount={showCount}
             selectedId={selectedId}
-            expandedName={expandedName}
             onSelect={(item) => setSelectedId(item.institution_id)}
-            onToggleExpand={(name) => setExpandedName(prev => (prev === name ? null : name))}
         />
     );
 }

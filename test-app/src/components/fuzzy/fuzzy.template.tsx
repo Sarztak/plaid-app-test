@@ -9,9 +9,7 @@ interface FuzzyTemplateProps {
     getLogo: (item: Institution) => any;
     showCount: boolean;
     selectedId: string | null;
-    expandedName: string | null;
     onSelect: (item: Institution) => void;
-    onToggleExpand: (name: string) => void;
 }
 
 export function FuzzyTemplate({
@@ -21,9 +19,7 @@ export function FuzzyTemplate({
     getLogo,
     showCount,
     selectedId,
-    expandedName,
     onSelect,
-    onToggleExpand,
 }: FuzzyTemplateProps) {
     return (
         <View style={styles.container}>
@@ -60,23 +56,19 @@ export function FuzzyTemplate({
                         );
                     }
 
-                    const isExpanded = expandedName === item.name;
                     const hasSelectedInGroup = item.items.some(i => i.institution_id === selectedId);
 
                     return (
                         <View key={item.name}>
                             <Pressable
                                 style={[styles.item, { flexDirection: 'row', alignItems: 'center' }]}
-                                onPressIn={() => {
-                                    onToggleExpand(item.name);
-                                    onSelect(item.items[0]);
-                                }}
+                                onPressIn={() => onSelect(item.items[0])}
                             >
                                 <Text style={[styles.name, hasSelectedInGroup && styles.highlightedName]}>
                                     {item.name} ({item.items.length})
                                 </Text>
                             </Pressable>
-                            {isExpanded && (
+                            {hasSelectedInGroup && (
                                 <View style={styles.logoGrid}>
                                     {item.items.map(inst => (
                                         <Pressable
