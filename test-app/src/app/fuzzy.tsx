@@ -16,10 +16,9 @@ export default function FuzzySearch() {
     const fuse = useMemo(
         () =>
             new Fuse(institutions as Institution[], {
-                keys: ['name', 'institution_id'],
+                keys: ['name'], // only search based on name, not inst_id that user doesn't know
                 threshold: 0.3,
                 minMatchCharLength: 2,
-                includeScore: true,
             }),
         []
     );
@@ -32,7 +31,7 @@ export default function FuzzySearch() {
             }
             const searched = fuse.search(query);
             setResults(searched.map(r => r.item));
-        }, 300);
+        }, 200); // might need to optimize based on further tests, 300ms was too slow
 
         return () => clearTimeout(timer);
     }, [query, fuse]);
