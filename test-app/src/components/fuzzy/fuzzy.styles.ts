@@ -44,10 +44,18 @@ export const styles = StyleSheet.create({
         fontSize: 12,
         marginTop: 2,
     },
-    logo: {
+    logoWrapper: {
         width: 40,
         height: 40,
         borderRadius: 20,
+        overflow: 'hidden',
+        backgroundColor: '#1a1a1a',
+    },
+    logo: {
+        width: 44,
+        height: 44,
+        marginLeft: -2,
+        marginTop: -2,
     },
     highlightedItem: {
         backgroundColor: '#1a1a1a',

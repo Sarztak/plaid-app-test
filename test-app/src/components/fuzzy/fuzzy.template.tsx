@@ -35,11 +35,13 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                         onPress={() => onSelect?.(item)}
                     >
                         <View style={styles.itemContent}>
-                            <Image
-                                source={getLogo(item)}
-                                style={styles.logo}
-                                resizeMode="cover"
-                            />
+                            <View style={styles.logoWrapper}>
+                                <Image
+                                    source={getLogo(item)}
+                                    style={styles.logo}
+                                    resizeMode="cover"
+                                />
+                            </View>
                             <View style={styles.textContent}>
                                 <Text style={[styles.name, index === 0 && styles.highlightedName]}>
                                     {item.name}
