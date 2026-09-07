@@ -1,4 +1,4 @@
-import { View, Text, TextInput, FlatList, TouchableOpacity, Image } from 'react-native';
+import { View, Text, TextInput, FlatList, Pressable, Image } from 'react-native';
 import styles from '@/components/fuzzy/fuzzy.styles';
 import { Institution } from './fuzzy.types';
 
@@ -31,9 +31,9 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                 data={results}
                 keyExtractor={item => item.institution_id}
                 renderItem={({ item }) => (
-                    <TouchableOpacity
+                    <Pressable
                         style={styles.item}
-                        onPress={() => onSelect?.(item)}
+                        onPressIn={() => onSelect?.(item)}
                     >
                         <View style={styles.itemContent}>
                             <Text style={[styles.selector, item.institution_id === selectedId && styles.highlightedSelector]}>
@@ -52,7 +52,7 @@ export function FuzzyTemplate({ query, onQueryChange, results, onSelect, getLogo
                                 </Text>
                             </View>
                         </View>
-                    </TouchableOpacity>
+                    </Pressable>
                 )}
                 initialNumToRender={20}
                 maxToRenderPerBatch={20}

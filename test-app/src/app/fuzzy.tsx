@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
+import { Animated } from 'react-native';
 import Fuse from 'fuse.js';
 import institutions from '../assets/institutions.json';
 import logoMap from '../assets/logoMap';
@@ -18,7 +19,7 @@ export default function FuzzySearch() {
     const fuse = useMemo(
         () =>
             new Fuse(institutions as Institution[], {
-                keys: ['name'], // only search based on name, not inst_id that user doesn't know
+                keys: ['name'],
                 threshold: 0.3,
                 minMatchCharLength: 2,
             }),
